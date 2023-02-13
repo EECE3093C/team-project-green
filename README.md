@@ -15,6 +15,8 @@ There are three major parts to our product's architecture: the soil sensor board
 The majority of the data that we will access/store is data that the soil sensor will take from the plants that it is currently servicing. We plan on storing this data in a cloud-based service so that multiple devices can have access to it. A portion of our project will include some code written in the [Arduino programming language](https://www.arduino.cc/reference/en/), as we are planning on going with the Arduino board architecture to power our soil sensor. The command-line driver and user interface section of the project will be written in C++. We plan to do research on which cloud-based service will fit our needs the best, however, we are leaning towards using [Google Firebase](https://firebase.google.com/products/firestore) in order to store our long term data points for future analysis.
 
 ## Challenges and Risks
+The most serious challenge that we see in the development and delivery of this project on schedule is the fact that not many of us on the team have worked with different hardware architectures before, including the Arduino board that we plan on using to act as the soil sensor for our project. 
 
-What is the single most serious challenge you see in developing the product on schedule?
-How will you minimize or mitigate the risk?
+We plan to mitigate this by using our first development sprint to do extensive research into how the board works, what functions it can provide us, and how we can do basic in and out operations on it before continuing to progress with the project. We want to make sure that we fully understand the hardware that we're working with before moving forward in order to make development run smoothly.
+
+A risk that we've identified in the project is the accuracy of the soil sensor that we're planning on using might be too low to be able to work on a commercial scale as planned. However, we plan to minimize this risk by opting to use a capacitive soil moisture module instead of a resisitve one, which, while slighly more expensive, can lead to more accurate readings and therefore more accurate data as a result.
