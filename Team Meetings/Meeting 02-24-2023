@@ -1,0 +1,31 @@
+# Meeting 02-24-2023
+
+Meeting time: 11:30am–12:30pm EST
+In attendance: all members
+
+## Updates/stand-up
+
+- Obtained two development boards from Professor Loudin, Jack is currently looking into getting that set up with Docker
+- Nick is learning Docker in order to create an image for the software repository
+- MJ is going to be working on an introduction C++ project for the first sprint
+- Hunter has been researching various cloud based services and will get a definite answer soon, looking into Arduino IoT cloud right now
+
+## Repo structure
+
+- Currently it is laid out as follows:
+  - "Team Green Project" board encompasses everything
+    - team-project-green for documentation and notes
+    - team-project-green-software for C++ and desktop software
+    - team-project-green-arduino for arduino hardware code
+- All tickets created on the Kanban board need to be assigned to an issue for one of the three repositories (use best judgement)
+- In-progress tickets require an assignee
+- We shouldn't have to move anything to done manually, tag the issue in a comment with the word 'closed'
+
+## Actionables
+
+### Next sprint iteration due: 03-01-2023
+
+- Jack—continue work on Arduino hello-world development
+- Nick—create a basic Dockerfile for the software repository
+- MJ—start work on a (terminal) menu application in C++ for future use
+- Hunter—finalize choice of cloud service and research APIs
